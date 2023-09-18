@@ -1,6 +1,6 @@
-//function that prints the string argument using STDOUT.
+// function that prints the string argument using STDOUT.
 function displayMessage(message) {
-	console.log(message);
+  console.log(message);
 }
 
 module.exports = displayMessage;
