@@ -14,7 +14,7 @@ function countStudents(path) {
     isnew.forEach((item) => field.add(item[1]));
     const final = {};
     field.forEach((list) => { (final[list] = 0); });
-    isnew.forEach((data) => { (final[list[1]] += 1); });
+    isnew.forEach((list) => { (final[list[1]] += 1); });
     console.log(`Number of students: ${res.filter((check) => check.length > 3).length}`);
     Object.keys(final).forEach((list) => console.log(`Number of students in ${list}: ${final[list]}. List: ${isnew.filter((n) => n[1] === list).map((n) => n[0]).join(', ')}`));
   } catch (E) {
