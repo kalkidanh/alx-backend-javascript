@@ -4,7 +4,7 @@
   "description": "unit tests in javascript",
   "main": "index.js",
   "scripts": {
-    "test":"mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/kalkidanh/alx-backend-javascript#readme",
   "dependencies": {
+    "chai": "^4.3.8",
     "mocha": "^10.2.0"
   }
 }
